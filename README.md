@@ -1,29 +1,18 @@
-# Foobar
+# Sentiment Analyst Project
 
-Foobar is a Python library for dealing with word pluralization.
+Simple sentiment analyst project using twitter API data. Twitter Developer account is needed to get API key and others. Time range and number of tweet to analyst can be arranged based on twitter developer account type. 
 
-## Installation
+## Feature
+* Gathering tweet data based on words to be analyzed
+* Update sentiment value
+* Show tweet data table
+* Visualize sentiment value based on number of tweet
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Used Library 
+* Tweepy
+* Re
+* Pandas
+* Matplotlib
+* Numpy
+* Datetime
+* Sqlite3
